@@ -22,9 +22,23 @@ document.addEventListener('DOMContentLoaded', () =>{
     ]
 
     const tTetromino = [
-        [],
-        [],
-        [],
-        []
+        [width, width+1, width*2+1, width+2],
+        [0, width, width+1, width*2],
+        [width*2,width*2+1,width+1,width*2+2],
+        [width, 1, width+1, width*2+1]
     ]
+
+    const sTetromino = [
+        [0, 1, width, width+1],
+        [0, 1, width, width+1],
+        [0, 1, width, width+1],
+        [0, 1, width, width+1]
+    ]
+
+    const iTetromino = [
+        [0, width, width*2, width*3],
+        [0, 1, 2, 3],
+        [0, width, width*2, width*3],
+        [0, 1, 2, 3]
+]
 })
