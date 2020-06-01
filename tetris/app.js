@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         [width, 1, width+1, width*2+1]
     ]
 
-    const sTetromino = [
+    const oTetromino = [
         [0, 1, width, width+1],
         [0, 1, width, width+1],
         [0, 1, width, width+1],
@@ -41,4 +41,6 @@ document.addEventListener('DOMContentLoaded', () =>{
         [0, width, width*2, width*3],
         [0, 1, 2, 3]
 ]
+
+const theTetrominoes = [lTetromino, zTetromino, tTetromino, oTetromino, iTetromino]
 })
